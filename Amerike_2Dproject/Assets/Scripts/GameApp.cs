@@ -12,6 +12,6 @@ public class GameApp : IGameApp
         ICharacterData characterData = new CharacterData();
         
         ICharacterBaseController characterBaseController = new CharacterBaseController(characterView, characterData);
-        characterBaseController.StartCharacter();
+        characterBaseController.StarCharacter();
     }
 }

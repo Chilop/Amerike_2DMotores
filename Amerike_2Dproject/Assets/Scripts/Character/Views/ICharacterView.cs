@@ -1,10 +1,11 @@
-using UnityEngine;
-namespace Character.Views
+﻿using UnityEngine;
+
+namespace Character
 {
     public interface ICharacterView
     {
-         SpriteRenderer SpriteRenderer { get;}
-         Animator Animator { get;}
-         Rigidbody2D Rigidbody2D  { get;}
+        SpriteRenderer SpriteRenderer { get; }
+        Animator Animator { get; }
+        Rigidbody2D Rigidbody2D { get; }
     }
 }

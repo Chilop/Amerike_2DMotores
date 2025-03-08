@@ -1,5 +1,4 @@
-using Character.Models;
-using Character.Views;
+﻿using Character.Models;
 
 namespace Character.Controllers
 {
@@ -8,16 +7,15 @@ namespace Character.Controllers
         private ICharacterView characterView;
         private ICharacterData characterData;
         
-            public CharacterBaseController(ICharacterView characterView, ICharacterData characterData)
-            {
-                this.characterView = characterView;
-                this.characterData = characterData;
-            }
-            
-        public void StartCharacter()
+        public CharacterBaseController(ICharacterView characterView, ICharacterData characterData)
         {
-        
+            this.characterView = characterView;
+            this.characterData = characterData;
+        }
+
+        public void StarCharacter()
+        {
+            
         }
     }
-   
 }

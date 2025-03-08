@@ -1,20 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
-using Character;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class Gamemanager : MonoBehaviour
 {
-    public GameManager Instance = null;
+    public Gamemanager Instance = null;
     private IGameApp gameApp;
-
     private void Awake()
     {
         if (!Instance)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            
+
             gameApp = new GameApp();
             gameApp.StartApp();
         }

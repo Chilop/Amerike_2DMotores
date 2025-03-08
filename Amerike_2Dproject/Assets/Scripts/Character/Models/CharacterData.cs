@@ -1,4 +1,4 @@
-namespace Character.Models
+﻿namespace Character.Models
 {
     public class CharacterData : ICharacterData
     {

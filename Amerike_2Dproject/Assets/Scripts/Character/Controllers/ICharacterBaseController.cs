@@ -1,7 +1,7 @@
-namespace Character.Controllers
+﻿namespace Character.Controllers
 {
     public interface ICharacterBaseController
     {
-       void StartCharacter();
+        void StarCharacter();
     }
 }
